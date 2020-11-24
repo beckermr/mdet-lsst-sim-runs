@@ -1,0 +1,23 @@
+name: mdet-lsst-sims
+channels:
+  - beckermr
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7
+  - pip
+  - ipython
+  - ipykernel
+  - jupyter
+  - log4cxx==0.10.0
+  - stackvana==2020.40w
+  - meds
+  - lsstdesc.weaklensingdeblending
+  - ngmix
+  - galsim
+  - wget
+  - pip:
+    - git+https://github.com/LSSTDESC/descwl-shear-sims.git
+    - git+https://github.com/LSSTDESC/descwl_coadd.git
+    - git+https://github.com/esheldon/mdet-lsst-sim.git
+    - git+https://github.com/esheldon/metadetect.git

@@ -1,0 +1,7 @@
+sim:
+    type: lsst
+    epochs_per_band: 1
+    dither: True
+    rotate: True
+    layout: random
+    gal_type: exp
