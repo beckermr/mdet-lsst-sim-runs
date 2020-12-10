@@ -1,6 +1,6 @@
 name: mdet-lsst-sims
 channels:
-  - beckermr
+  - https://www.cosmo.bnl.gov/www/beckermr/stackvana/
   - conda-forge
   - defaults
 dependencies:
