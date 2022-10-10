@@ -1,16 +1,14 @@
 name: mdet-lsst-sims
 channels:
-  - https://www.cosmo.bnl.gov/www/beckermr/stackvana/
   - conda-forge
   - defaults
 dependencies:
-  - python=3.7
+  - python=3.10
   - pip
   - ipython
   - ipykernel
   - jupyter
-  - log4cxx==0.10.0
-  - stackvana==2020.40w
+  - stackvana
   - meds
   - lsstdesc.weaklensingdeblending
   - ngmix
@@ -18,6 +16,3 @@ dependencies:
   - wget
   - pip:
     - git+https://github.com/LSSTDESC/descwl-shear-sims.git
-    - git+https://github.com/LSSTDESC/descwl_coadd.git
-    - git+https://github.com/esheldon/mdet-lsst-sim.git
-    - git+https://github.com/esheldon/metadetect.git
